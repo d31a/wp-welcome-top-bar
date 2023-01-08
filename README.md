@@ -8,7 +8,7 @@ The first step is to create a folder in the plugins folder:
 Create the folder with the plugin name, e.g. topbar.
 
 
-![topbar.PNG](../../Assets/topbar.PNG)
+![topbar.PNG](Assets/topbar.PNG)
 
 Open the folder in VSCode. 
 
@@ -36,7 +36,7 @@ Every WordPress plugin must have a description with the plugin name as a minimum
 
 How this looks in the plugins directory:
 
-![pluginwp.PNG](../../Assets/pluginwp.PNG)
+![pluginwp.PNG](Assets/pluginwp.PNG)
 
 # Coding the plugin
 
@@ -121,7 +121,7 @@ function tb_css()
 ## The result 
 ### When a user is not logged in
 
-![not-logged-in.png](Assets/logged-in.png)
+![not-logged-in.png](Assets/not-logged-in.png)
 
 
 ### When a user is logged in
