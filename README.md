@@ -121,13 +121,13 @@ function tb_css()
 ## The result 
 ### When a user is not logged in
 
-![not-logged-in.png](../../Assets/not-logged-in.png)
+![not-logged-in.png](Assets/logged-in.png)
 
 
 ### When a user is logged in
 
 
-![logged-in.png](../../Assets/logged-in.png)
+![logged-in.png](Assets/logged-in.png)
 
 
 
