@@ -42,8 +42,6 @@ How this looks in the plugins directory:
 
 The plugin will create a welcome message that appears above the top navigation bar. The message will display *'Welcome to (sitename)'* when a user is not logged in, else it will display *'Welcome (user)'* when a user is logged in. 
 
----
-
 ## Step One
 
 ### Add the code so it appears after the `<body>` tag
