@@ -54,7 +54,7 @@ To make the code display after the `<body>` tag,  call the WordPress function  `
  add_action('wp_body_open', 'tb_head');
  
 ```
----
+
 ## Step Two
 ### Create the function to determine if a user is logged in, or not
 
@@ -78,8 +78,6 @@ function get_user_or_websitename()
 
 ```
 
----
-
 ## Step Three 
 ### Call the function to determine user login status 
 
@@ -96,7 +94,7 @@ The `tb_head()` function creates the welcome message in `<h3>` tags, remembering
 
 
 ```
----
+
 ## Step Four 
 ### Apply some styling 
 
@@ -115,7 +113,7 @@ function tb_css()
 }
 
 ```
----
+
 ## The result 
 ### When a user is not logged in
 
