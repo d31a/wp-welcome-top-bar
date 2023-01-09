@@ -127,7 +127,7 @@ function tb_css()
 
 
 
-## Credit
+## Reference
 
 This plugin was created with reference to this video: https://www.youtube.com/watch?v=SoIQdR_0SUc
 
