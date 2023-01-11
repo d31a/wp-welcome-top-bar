@@ -126,6 +126,51 @@ function tb_css()
 ![logged-in.png](Assets/logged-in.png)
 
 
+# Adding A Custom Backend Field
+
+The following allows a custom message to appear upon the website (whenever a user is not logged in). 
+
+## Step One: Create a function for the backend page
+
+Underneath the frontend code, still within the **topbar.php** plugin, we need to define a new function, this one is called: `function topbar_backend_page(). This will tell WordPress to create a new dashboard icon that will lead to our plugin page. 
+
+```
+
+// Top Bar backend page
+
+function topbar_backend_page() {
+    $page_title = 'Top Bar Options';
+    $menu_title = 'Top Bar';
+    $capability = 'manage_options'; // controlling access to the page
+    $slug = 'topbar-plugin'; // something unique
+    $callback = 'topbar_page_html'; // the function that renders the page
+    $icon = 'dashicons-schedule';
+    $position = 60; // position on dashboard
+
+    add_menu_page($page_title, $menu_title, $capability, $slug, $callback, $icon, $position);
+}
+
+// hook to call function
+
+add_action('admin_menu', 'topbar_backend_page');
+
+```
+
+The function defines WordPress variables with our plugin requirements, and then calls a on the WordPress function `add_menu_page`, to add the menu to the page. 
+
+The `add_action` WordPress hook is then called. 
+
+The result is as follows:
+
+![ca4d78b9f4d053a7284250010f29fbf3.png](:/af26394c1659486ba4ec11b016d1a273)
+
+## Step Two: Create the field function
+
+
+## Step Three: Render the html page 
+
+# Result
+
 
 ## Reference
 
