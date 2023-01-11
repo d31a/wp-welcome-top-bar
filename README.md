@@ -167,7 +167,7 @@ The result is as follows:
 ## Step Two: Create the field function
 
 
-## Step Three: Render the html page 
+## Step Three: Render the HTML page 
 
 # Result
 
