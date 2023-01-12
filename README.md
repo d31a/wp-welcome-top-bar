@@ -162,7 +162,7 @@ The `add_action` WordPress hook is then called with the WordPress `admin_menu` f
 
 The result is as follows:
 
-![af26394c1659486ba4ec11b016d1a273.PNG](:Assets/af26394c1659486ba4ec11b016d1a273.PNG)
+![af26394c1659486ba4ec11b016d1a273.PNG](Assets/af26394c1659486ba4ec11b016d1a273.PNG)
 
 ## Step Six: Create the field function
 
@@ -256,13 +256,13 @@ Finish by styling the form with reference to the `top-bar-wrapper` class.
 ## Backend 
 
 
-![ebab0cb16e1a405aba653e2e87b47fc2.PNG](:Assets/ebab0cb16e1a405aba653e2e87b47fc2.PNG)
+![ebab0cb16e1a405aba653e2e87b47fc2.PNG](Assets/ebab0cb16e1a405aba653e2e87b47fc2.PNG)
 
 
 ## Frontend
 
 
-![10b6700b32d842478aeabee9493588c1.PNG](:Assets/10b6700b32d842478aeabee9493588c1.PNG)
+![10b6700b32d842478aeabee9493588c1.PNG](Assets/10b6700b32d842478aeabee9493588c1.PNG)
 
 *(User not logged in)*
 
