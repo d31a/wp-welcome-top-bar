@@ -83,7 +83,9 @@ add_action('admin_init', 'topbar_register_settings' ); // hook the function
 
 // rendering the html page topbar_page_html
 
+// closing off the php 
 function topbar_page_html() { ?> 
+
 <!-- Class of wrap comes with WordPress -->
 
 <div class="wrap top-bar-wrapper">
