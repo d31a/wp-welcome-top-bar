@@ -162,7 +162,7 @@ The `add_action` WordPress hook is then called with the WordPress `admin_menu` f
 
 The result is as follows:
 
-![af26394c1659486ba4ec11b016d1a273.PNG](Assets/af26394c1659486ba4ec11b016d1a273.PNG)
+![af26394c1659486ba4ec11b016d1a273.png](Assets/af26394c1659486ba4ec11b016d1a273.png)
 
 ## Step Six: Create the field function
 
